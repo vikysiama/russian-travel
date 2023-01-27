@@ -1,0 +1,20 @@
+.lead__caption-pic {
+  align-self: flex-start;
+  font-size: 10px;
+  font-weight: normal;
+  color:  #fff;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__caption-pic {
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__caption-pic {
+    padding-left: 16px;
+  }
+}

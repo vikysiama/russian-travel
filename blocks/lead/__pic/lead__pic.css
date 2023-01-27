@@ -1,0 +1,27 @@
+.lead__pic {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 984px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__pic {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__pic {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__pic {
+    max-width: 320px;
+  }
+}
+

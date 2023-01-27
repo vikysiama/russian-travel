@@ -1,0 +1,16 @@
+.lead__pic-with-caption {
+  margin: 0;
+  padding-top: 64px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__pic-with-caption {
+    padding-top: 56px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__pic-with-caption {
+    padding-top: 40px;
+  }
+}

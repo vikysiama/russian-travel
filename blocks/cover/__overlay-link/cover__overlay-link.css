@@ -36,17 +36,10 @@
   }
 }
 
-/* @media screen and (max-width: 768px) {
-  .cover__overlay-link {
-    min-height: calc(768px / 4 * 3);
-  }
-} */
-
 @media screen and (max-width: 320px) {
   .cover__overlay-link {
     max-width: 320px;
     row-gap: 16px;
-    /* min-height: calc(320px / 4 * 3); */
   }
 }
 

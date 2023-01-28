@@ -1,10 +1,12 @@
 .page {
   max-width: 1280px;
   min-width: 320px;
+  width: 100%;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   font-family: 'Inter', 'Arial', sans-serif;
   background-color: #2A2C2F;
+}
+
+h1, h2, body, div, a, article, img, p {
+  outline: 1px solid greenyellow;
 }

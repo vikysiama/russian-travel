@@ -10,6 +10,13 @@
   line-height: 76px;
 }
 
+@media screen and (max-width: 689px){
+  .cover__title {
+      font-size: calc(32px + (40 * 1.4) * ((100vw - 320px) / 689));
+      line-height: calc(35px + (41 * 1.4) * ((100vw - 320px) / 589));
+    }
+  }
+
 @media screen and (max-width: 320px) {
   .cover__title {
     max-width: 288px;

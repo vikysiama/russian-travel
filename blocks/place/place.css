@@ -1,5 +1,5 @@
 .place {
-  margin: 0;
+  margin: 0 auto;
   width: 100%;
   max-width: 984px;
   display: grid;
@@ -26,7 +26,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 410px) {
   .place {
     max-width: 320px;
     grid-template-columns: minmax(min-content, 320px);
